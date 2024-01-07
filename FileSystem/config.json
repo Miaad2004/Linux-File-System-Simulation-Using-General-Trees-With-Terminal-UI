@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=D:\\Uni\\Term_3\\DS\\Projs\\LinuxFileSystemSimulation\\test.db"
+  }
+
+}
