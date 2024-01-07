@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FileSystem.Models
+﻿namespace FileSystem.Models
 {
-    public class User: Entity
+    public class User : Entity
     {
         private string _username;
-        
         public string Username
         {
             get => _username;
@@ -29,7 +22,6 @@ namespace FileSystem.Models
             }
         }
 
-
         public string PasswordHash { get; protected set; }
 
         public DateTime CreationDate { get; private set; }
@@ -40,11 +32,16 @@ namespace FileSystem.Models
 
         public ICollection<Ownership> OwnerShips { get; protected set; }
 
-        public User(string username, string passwordHash)
+        public User(string username, string passwordHash, bool IsRoot = false)
         {
             Username = username;
             PasswordHash = passwordHash;
             CreationDate = DateTime.Now;
+            this.IsRoot = IsRoot;
+        }
+        public User()
+        {
+
         }
 
     }
