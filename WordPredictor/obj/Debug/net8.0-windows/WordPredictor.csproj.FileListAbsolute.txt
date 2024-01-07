@@ -1,0 +1,12 @@
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\bin\Debug\net8.0-windows\WordPredictor.deps.json
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\bin\Debug\net8.0-windows\WordPredictor.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\bin\Debug\net8.0-windows\WordPredictor.pdb
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.csproj.AssemblyReference.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.AssemblyInfoInputs.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.AssemblyInfo.cs
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.csproj.CoreCompileInputs.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\refint\WordPredictor.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\WordPredictor.pdb
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\WordPredictor\obj\Debug\net8.0-windows\ref\WordPredictor.dll

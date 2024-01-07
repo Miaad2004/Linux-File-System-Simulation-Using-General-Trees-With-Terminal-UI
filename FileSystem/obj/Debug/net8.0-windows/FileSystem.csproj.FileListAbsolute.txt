@@ -1,0 +1,15 @@
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\bin\Debug\net8.0-windows\FileSystem.deps.json
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\bin\Debug\net8.0-windows\FileSystem.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\bin\Debug\net8.0-windows\FileSystem.pdb
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\bin\Debug\net8.0-windows\WordPredictor.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\bin\Debug\net8.0-windows\WordPredictor.pdb
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.csproj.AssemblyReference.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.AssemblyInfoInputs.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.AssemblyInfo.cs
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.csproj.CoreCompileInputs.cache
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.csproj.CopyComplete
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\refint\FileSystem.dll
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\FileSystem.pdb
+D:\Uni\Term_3\DS\Projs\LinuxFileSystemSimulation\FileSystem\obj\Debug\net8.0-windows\ref\FileSystem.dll

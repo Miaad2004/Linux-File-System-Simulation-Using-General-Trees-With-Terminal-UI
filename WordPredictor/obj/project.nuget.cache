@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "x+ER9nWhSpkUGfqRdliPV5CDuRftkrxHLsGUKAsdtUGRL5IBFOz2iz0duwX5ArPJ6VHrltKl5aMJpmREz0qn7g==",
+  "success": true,
+  "projectFilePath": "D:\\Uni\\Term_3\\DS\\Projs\\LinuxFileSystemSimulation\\WordPredictor\\WordPredictor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Miaad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Miaad\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\Miaad\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Miaad\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
