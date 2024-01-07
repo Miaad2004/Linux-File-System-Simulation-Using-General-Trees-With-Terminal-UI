@@ -1,12 +1,4 @@
-﻿using FileSystem.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FileSystem.Models
+﻿namespace FileSystem.Models
 {
     public enum SearchAlgorithm
     {
@@ -16,14 +8,26 @@ namespace FileSystem.Models
 
     public class Node<T>
     {
+        public static event EventHandler<NodeEventArgs<T>> NodeCreated;
+        public static event EventHandler<NodeEventArgs<T>> NodeDisposed;
+
         public Guid Key { get; set; } = Guid.NewGuid();
+
         public T Data { get; set; }
+
         public Node<T>? Parent { get; set; } = null;
+
         public ICollection<Node<T>> Children { get; set; } = new List<Node<T>>();
 
         public Node(T value)
         {
             Data = value;
+            NodeCreated?.Invoke(this, new NodeEventArgs<T>(Data));
+        }
+
+        ~Node()
+        {
+            NodeDisposed?.Invoke(this, new NodeEventArgs<T>(Data));
         }
 
         public Node<T> AddChild(T value)
@@ -41,7 +45,7 @@ namespace FileSystem.Models
 
         public Node<T> Clone()
         {
-            Node<T> clone = new Node<T>(this.Data);
+            Node<T> clone = new(this.Data);
 
             foreach (var child in Children)
             {
@@ -68,38 +72,24 @@ namespace FileSystem.Models
             return path;
         }
     }
+
+
     public class Tree<T>
     {
         public Node<T> Root { get; set; }
 
         public Node<T> GetFirstCommonAncestor(Node<T> node1, Node<T> node2)
         {
-            return Root;
-        }
+            var path1 = node1.GetPathToRoot();
+            var path2 = node2.GetPathToRoot();
 
-        private Node<T> DFS(Node<T> startNode, string path)
-        {
-            return Root;
-        }
-
-        private Node<T> BFS(Node<T> startNode, string path)
-        {
-            return Root;
-        }
-
-        public Node<T> FindNodeByPath(string path, Node<T>? startNode=null, SearchAlgorithm searchAlgorithm=SearchAlgorithm.DFS)
-        {
-            startNode ??= Root;
-
-            if (searchAlgorithm == SearchAlgorithm.DFS)
+            int i = 0;
+            while (i < path1.Count && i < path2.Count && path1[i] == path2[i])
             {
-                return DFS(startNode, path);
+                i++;
             }
 
-            else
-            {
-                return BFS(startNode, path);
-            }
+            return path1[i - 1];
         }
     }
 }
