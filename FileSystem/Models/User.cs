@@ -26,8 +26,6 @@
 
         public DateTime CreationDate { get; private set; }
 
-        public DateTime? LastAccessedDate { get; private set; } = null;
-
         public bool IsRoot { get; private set; } = false;
 
         public ICollection<Ownership> OwnerShips { get; protected set; }

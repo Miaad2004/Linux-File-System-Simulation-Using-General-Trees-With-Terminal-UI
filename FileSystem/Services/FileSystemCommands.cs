@@ -8,13 +8,22 @@ namespace FileSystem.Services
         public void ChangeDirectory(string[] args)
         {
             var newPath = args[0];
-            CurrentDirectory = GetNodeByPath(newPath);
+            var currentNode = GetNodeByPath(newPath);
+
+            if (!currentNode.Data.IsDirectory)
+                throw new UIException("Can not cd to a file.");
+
+            CurrentDirectory = currentNode;
         }
 
         public void MakeDirectory(string[] args)
         {
             var path = args[0];
             var targetNode = GetNodeByPath(GetPathWithoutFileName(path));
+
+            if (!targetNode.Data.IsDirectory)
+                throw new UIException("Can not create a folder in a file.");
+
             if (targetNode.Data.GetCurrentUserAccessLevel() < AccessLevels.Write && !CurrentUser.IsRoot)
                 throw new UIException("You don't have permission to create a directory here");
 

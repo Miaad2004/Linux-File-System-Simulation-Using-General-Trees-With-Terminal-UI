@@ -13,7 +13,7 @@ namespace UI.Services
 
     public partial class ConsoleInterfaceService
     {
-        private static readonly string[] commands = ["ls", "pwd", "mkdir", "rmdir", "rm", "find", "logout", "useradd", "su", "help", "touch", "find", "size", "ls", ">>", "chmod", "lca", "dfs", "bfs"];
+        private static readonly string[] commands = ["ls", "pwd", "mkdir", "rmdir", "rm", "find", "logout", "useradd", "su", "help", "touch", "find", "sp", "ls", ">>", "chmod", "lca", "dfs", "bfs"];
 
         private readonly MainView mainView;
         private readonly StackPanel stackPanel;

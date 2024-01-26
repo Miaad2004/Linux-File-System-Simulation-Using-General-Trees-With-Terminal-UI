@@ -81,7 +81,7 @@ namespace FileSystem.Services
                         output.OutputTexts.Add(FileSystemService.Instance.LCA(commandArgs));
                         break;
 
-                    case "size":
+                    case "sz":
                         result = FileSystemService.Instance.Size(commandArgs);
                         output.OutputTexts.Add(result);
                         break;

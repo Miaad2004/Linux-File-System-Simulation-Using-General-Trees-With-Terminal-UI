@@ -30,9 +30,6 @@ namespace FileSystem.Models
 
         public string Content { get; set; } = "";
         public DateTime CreationDate { get; private set; }
-        public DateTime? LastAccessedDate { get; private set; } = null;
-        public bool IsReadOnly { get; private set; } = false;
-        public bool IsHidden { get; private set; } = false;
         public bool IsDirectory { get; private set; }
         public ICollection<Ownership> OwnerShips { get; protected set; } = [];
 
